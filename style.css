@@ -1,0 +1,145 @@
+body {
+    background-color: hsl(0, 0%, 80%);
+}
+
+p {
+    font-size: 100px;
+    color: white;
+    text-shadow: black 3px 3px 3px;
+}
+
+button {
+    font-size: 40px;
+    color: white;
+    background-color: hsl(33, 100%, 50%);
+    border: 3px solid white;
+    border-radius: 4px 4px 4px 4px;
+}
+
+button:hover {
+    background-color: hsl(33, 100%, 40%);
+}
+
+button:active {
+   background-color: hsl(33, 100%, 45%); 
+}
+
+#inventory {
+    width: 450px;
+}
+
+#contentDiv {
+    position: relative;
+
+    text-align: center;
+    background-color: hsl(143, 40%, 50%);
+    width: 50%;
+    height: 1000px;
+
+    margin-right: auto;
+    margin-left: auto;
+
+    border-radius: 3px;
+    border: 5px solid white;
+}
+
+#inventoryDiv {
+    display: none;
+
+    text-align: center;
+    background-color: hsl(143, 32%, 42%);
+
+    width: 90%;
+    height: 900px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    z-index: 10;
+
+    border: 5px solid white;
+}
+
+#inventoryLabel {
+    color: white;
+    text-shadow: black 3px 2px 2px;
+    font-size: 60px;
+}
+
+#closeButton {
+    background-color: hsl(0, 100%, 50%);
+
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+
+    width: 120px;
+}
+
+#closeButton:hover {
+    background-color: hsl(0, 100%, 40%);
+}
+
+#closeButton:active {
+    background-color: hsl(0, 100%, 45%);
+}
+
+.itemBox {
+    display: inline-block;
+
+    width: 200px;
+    height: 150px;
+
+    border: 3px solid white;
+    background-color: lightgray;
+
+    color: white;
+    font-size: 25px;
+
+    margin: 20px;
+    
+    vertical-align: top;
+
+    padding-bottom: 20px;
+}
+
+.sellButton {
+    background-color:hsla(0, 70%, 50%, 0.670);
+
+    width: 120px;
+    height: 50px;
+
+    margin-top: 20px;
+}
+
+.sellButton:hover {
+    background-color:hsla(0, 60%, 40%, 0.660);
+}
+
+.sellButton:active {
+   background-color:hsla(0, 65%, 45%, 0.665); 
+}
+
+#itemAmount {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+
+    width: 175px;
+
+    color: white;
+    font-size: 33px;
+
+    text-shadow: black 2px 2px 2px;
+}
+
+#fullInventory {
+    font-size: 45px;
+}
+
+#soldItem {
+    font-size: 45px;
+}
