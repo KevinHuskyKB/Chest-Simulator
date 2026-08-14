@@ -1,6 +1,12 @@
-# 🎁 Chest Simulator
+<h1 align="center">🎁 Chest Simulator 🎁</h1>
 
-A simple chest opening simulator I made while learning JavaScript!
+<p align="center">
+  <img src="chest-mascot.png" width="500">
+</p>
+
+<p align="center">
+  A simple chest opening simulator I made while learning JavaScript!
+</p>
 
 Open chests, get random items with different rarities, manage your inventory, and sell items to earn coins.
 
